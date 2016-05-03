@@ -1,8 +1,21 @@
+<!--
+Creator: Ilias Tsangaris
+Market: SF
+-->
+
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+
 #DOM Manipulation & Events
 
-### Objectives
+## Why is this important?
+<!-- framing the "why" in big-picture/real world examples -->
+*This workshop is important because:*
 
-*After this lesson, students will be able to:*
+Using JavaScript to manipulate the DOM will enable you to write dynamic web applications that can update themselves & be affected by user input in any way you dream up!
+
+## What are the objectives?
+<!-- specific/measurable goal for students to achieve -->
+*After this workshop, developers will be able to:*
 
 * Select & modify DOM elements
 * Create & append DOM elements
@@ -10,24 +23,30 @@
 * Set event listeners
 
 
-### Preparation
-*Before this lesson, students should already be able to:*
+## Where should we be now?
+<!-- call out the skills that are prerequisites -->
+*Before this workshop, developers should already be able to:*
 
 - Use chrome developer tools to interact with the DOM
 - Create javascript objects and functions
+- Be resourceful Googlers
 
-Head to the GitHub's [showcase](https://github.com/showcases) section to get started.
+##Select & Modify: Str8-up H4cked
+*This workshop will be a guided, but self-driven.*
 
-##Select & Modify: Str8-up H4cked (15m)
+The consultant will introduce each mission, allow time for developers to work on it, and then give a suggested solution before moving on.
 
-####Mission
-Select each showcase element change them all to `WDI Rulez: str8-up h4cked`.
+*Note:* A [reference guide](#web-api-reference) to the aspects of the Web API is at the bottom of the workshop.
+
+####Mission A
+
+Head to the GitHub's [showcase](https://github.com/showcases) section to get started. Select each showcase element change them all to `WDI Rulez: str8-up h4cked`.
 
 ![str8-up hacked](./images/str8-up-h4cked.png)
 
 ---
 
-Hint:
+**Hint:**
 
 * How we can identify all the showcase elements? Do they share any HTML attributes?
 
@@ -37,9 +56,9 @@ Hint:
 * Now that we have a collection, how do we change the text off all of them at once?
 	* Tip: iterate through the collection and reset the `textContent` of each.
 
-##Create & Append: More Octocat (15m)
+##Create & Append: More Octocat
 
-####Mission
+####Mission B
 
 The internet loves cats. Let's put another octocat icon after the search box.
 
@@ -47,7 +66,7 @@ The internet loves cats. Let's put another octocat icon after the search box.
 
 ---
 
-Hint:
+**Hint:**
 
 * Grab the search box
 
@@ -58,9 +77,9 @@ Hint:
 
 * Append it to the DOM
 
-##Styling with Javascript: Big Kitty (10m)
+##Styling with Javascript: Big Kitty
 
-####Mission
+####Mission C
 
 Our octocat is not big or bold enough! Let's increase it's size and give it a fun color.
 
@@ -68,35 +87,35 @@ Our octocat is not big or bold enough! Let's increase it's size and give it a fu
 
 ---
 
-Hint:
+**Hint:**
 
 `.style`
 
 
-##Set Event Listeners (10m)
+##Set Event Listeners
 
-####Mission
+####Mission D
 
 Register an event which fires when our octocat is clicked that creates an alert message saying "meow"
 
 ---
 
-Hint:
+**Hint:**
 
 `.addEventListener`
 
 
 ##Bonus Mission
 
-####Mission
+####Mission E
 
 When the octocat is hovered-over change its color to grey.
 
-##Conclusion
+##Closing Thoughts
 
-Today we uncovered some Web API basics that allowed us to interact with the DOM as a whole and elements individually.
+Knowledge of the Web API allows us to affect and add dynamic behavior to HTML pages.
 
-####We covered
+<h2 id="web-api-reference">Reference Guide</h2>
 **General Concepts**
 
 * `for` loop
