@@ -27,7 +27,7 @@ Select each showcase element change them all to `WDI Rulez: str8-up h4cked`.
 
 ---
 
-####Guidance
+Hint:
 
 * How we can identify all the showcase elements? Do they share any HTML attributes?
 
@@ -47,7 +47,7 @@ The internet loves cats. Let's put another octocat icon after the search box.
 
 ---
 
-####Guidance
+Hint:
 
 * Grab the search box
 
@@ -68,11 +68,10 @@ Our octocat is not big or bold enough! Let's increase it's size and give it a fu
 
 ---
 
-####Guidance
+Hint:
 
-Try `.style`
+`.style`
 
--->
 
 ##Set Event Listeners (10m)
 
@@ -82,9 +81,9 @@ Register an event which fires when our octocat is clicked that creates an alert 
 
 ---
 
-###Guidance
+Hint:
 
-Try `.addEventListener`
+`.addEventListener`
 
 
 ##Bonus Mission
@@ -92,7 +91,6 @@ Try `.addEventListener`
 ####Mission
 
 When the octocat is hovered-over change its color to grey.
-
 
 ##Conclusion
 
