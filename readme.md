@@ -70,7 +70,7 @@ The internet loves cats. Let's put another octocat icon after the search box.
 
 * Grab the search box
 
-* Create an span element in the console with the classes `.mega-octicon` and `.octicon-mark-github`
+* Create an span element in the console with the classes `.octicon` and `.octicon-mark-github`
 
 * Add an ID for good measure (it could help us select it again later)
 	* Tip: try `setAttribute`
