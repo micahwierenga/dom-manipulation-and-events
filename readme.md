@@ -33,7 +33,7 @@ Using JavaScript to manipulate the DOM will enable you to write dynamic web appl
 - Be resourceful Googlers
 
 ##Select & Modify: Str8-up H4cked
-*This workshop will be a guided, but self-driven.*
+*This workshop will be guided, but self-driven.*
 
 The consultant will introduce each mission, allow time for developers to work on it, and then give a suggested solution before moving on.
 
@@ -53,7 +53,7 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 
 **Hint:**
 
-* How we can identify all the showcase elements? Do they share any HTML attributes?
+* How can we identify all the startup elements? Do they share any HTML attributes?
 
 * Once we've identified an attribute they all share, how can we select them all?
 	* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different to `.querySelector` which just selects the first item it finds.
@@ -65,7 +65,7 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 
 ####Mission B
 
-Let add the AngelList V to the email list subscribe box because its good to reward people who sign up for your email.
+Let add the AngelList V to the email list subscribe box. After all, it's good to reward people who sign up for your email.
 
 ![angels-everywhere](./images/more-angels.png)
 
@@ -75,7 +75,7 @@ Let add the AngelList V to the email list subscribe box because its good to rewa
 
 * Grab the email list box
 
-* Create an span element in the console with the classes `.fontello-angellist`
+* Create a span element in the console with the classes `.fontello-angellist`
 
 * Add an ID for good measure (it could help us select it again later)
 	* Tip: try `setAttribute`
@@ -86,7 +86,7 @@ Let add the AngelList V to the email list subscribe box because its good to rewa
 
 ####Mission C
 
-Our angel V is not big or bold enough! Let's increase it's size and give it a fun color.
+Our angel V is not big or bold enough! Let's increase its size and give it a fun color.
 
 ![green-angel](./images/green-angels.png)
 
@@ -114,7 +114,7 @@ Register an event which fires when our angel V is clicked that creates an alert 
 
 ####Mission E
 
-When the angel V is hovered-over change its color to red.
+When the angel V is hovered-over, change its color to red.
 
 ##Closing Thoughts
 
