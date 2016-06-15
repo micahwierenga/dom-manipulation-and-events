@@ -1,34 +1,30 @@
-//MISSION 1 — Select & Modify: Str8-up H4cked
-//grab all the collection card titles
-var showcases = document.querySelectorAll(".collection-card-title");
-//for each collection title
-for(var i = 0; i < showcases.length; i++) {
-  //change the text content
-  showcases[i].textContent = "WDI Rulez: str8-up h4cked";
+// Mission A - Select & Modify: Str8-up H4cked
+//grab all the companies
+var companies = document.querySelectorAll("h5");
+//for each company
+for(var i= 0; i < companies.length; i++) {
+    //change the text content
+    companies[i].textContent = "WDI Rulez: str8-up h4cked";
 }
 
-//MISSION 2 - Create & Append: More Octocat
-var searchBox = document.querySelector(".collection-listing-search");
-var octocat = document.createElement("span");
-octocat.className = "mega-octicon";
-octocat.className += " octicon-mark-github";
-octocat.setAttribute("id", "wdi-octocat");
-searchBox.appendChild(octocat);
+//Mission B - Add the V
+var subscribeBox = document.querySelector(".alerts");
+var logo = document.createElement("span")
+logo.className = "fontello-angellist";
+logo.setAttribute("id", "myLogo")
+subscribeBox.appendChild(logo) 
 
-//MISSION 3 - Styling with Javascript: Big Kitty
-octocat.style.fontSize = "200px"
-octocat.style.color = "pink"
+//Mission C - green V
+logo.style.fontSize = "64px";
+logo.style.color = "green";
 
-//MISSION 4 — Set Event Listeners
-var octocat = document.querySelector("#wdi-octocat")
-octocat.addEventListener("click", function() {
-  alert("meow!")
-})
+//Mission D - set an event listener
+function fundMe(){ alert("Fund Me!") }
+logo.addEventListener("click", fundMe)
 
-//BONUS MISSION
-octocat.addEventListener("mouseenter", function(e) {
-  e.target.style.color = "grey"
-})
-octocat.addEventListener("mouseleave", function(e) {
-  e.target.style.color = "pink"
-})
+//Mission E Bonus
+function makeMeRed(event){ event.target.style.color = "red";}  
+function makeMeGreen(event){ event.target.style.color = "green"}
+
+logo.addEventListener("mouseenter", makeMeRed)
+logo.addEventListener("mouseleave", makeMeGreen)

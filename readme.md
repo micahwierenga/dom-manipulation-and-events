@@ -1,6 +1,7 @@
 <!--
 Creator: Ilias Tsangaris
-Market: SF
+Editor: John Barela 
+Market: SF, Denver
 -->
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
@@ -32,7 +33,7 @@ Using JavaScript to manipulate the DOM will enable you to write dynamic web appl
 - Be resourceful Googlers
 
 ##Select & Modify: Str8-up H4cked
-*This workshop will be a guided, but self-driven.*
+*This workshop will be guided, but self-driven.*
 
 The consultant will introduce each mission, allow time for developers to work on it, and then give a suggested solution before moving on.
 
@@ -40,15 +41,19 @@ The consultant will introduce each mission, allow time for developers to work on
 
 ####Mission A
 
-Head to the GitHub's [showcase](https://github.com/showcases) section to get started. Select each showcase element change them all to `WDI Rulez: str8-up h4cked`.
+Time to be an [Egor Homakov](http://techli.com/2012/03/how-a-russian-developer-hijacked-github-to-help-the-rails-community/) and get some publicity. 
+
+Head to the Angel List's [job board](https://angel.co/developer/jobs) page to get started. Select each company name and change them all to `WDI Rulez: str8-up h4cked`.
 
 ![str8-up hacked](./images/str8-up-h4cked.png)
+
+[CFU]: # (What would be some of the first steps. Prod for opening the console and comment on the Easter Egg.)
 
 ---
 
 **Hint:**
 
-* How we can identify all the showcase elements? Do they share any HTML attributes?
+* How can we identify all the startup elements? Do they share any HTML attributes?
 
 * Once we've identified an attribute they all share, how can we select them all?
 	* Tip: try [`document.querySelectorAll(...)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to grab everything that matches a query. Note this is different to `.querySelector` which just selects the first item it finds.
@@ -56,21 +61,21 @@ Head to the GitHub's [showcase](https://github.com/showcases) section to get sta
 * Now that we have a collection, how do we change the text off all of them at once?
 	* Tip: iterate through the collection and reset the `textContent` of each.
 
-##Create & Append: More Octocat
+##Create & Append: Angels Everywhere
 
 ####Mission B
 
-The internet loves cats. Let's put another octocat icon after the search box.
+Let add the AngelList V to the email list subscribe box. After all, it's good to reward people who sign up for your email.
 
-![more-octocat](./images/more-octocat.png)
+![angels-everywhere](./images/more-angels.png)
 
 ---
 
 **Hint:**
 
-* Grab the search box
+* Grab the email list box
 
-* Create an span element in the console with the classes `.octicon` and `.octicon-mark-github`
+* Create a span element in the console with the classes `.fontello-angellist`
 
 * Add an ID for good measure (it could help us select it again later)
 	* Tip: try `setAttribute`
@@ -81,9 +86,9 @@ The internet loves cats. Let's put another octocat icon after the search box.
 
 ####Mission C
 
-Our octocat is not big or bold enough! Let's increase it's size and give it a fun color.
+Our angel V is not big or bold enough! Let's increase its size and give it a fun color.
 
-![big-kitty](./images/big-kitty.png)
+![green-angel](./images/green-angels.png)
 
 ---
 
@@ -96,7 +101,7 @@ Our octocat is not big or bold enough! Let's increase it's size and give it a fu
 
 ####Mission D
 
-Register an event which fires when our octocat is clicked that creates an alert message saying "meow"
+Register an event which fires when our angel V is clicked that creates an alert message saying "Fund Me!"
 
 ---
 
@@ -109,7 +114,7 @@ Register an event which fires when our octocat is clicked that creates an alert 
 
 ####Mission E
 
-When the octocat is hovered-over change its color to grey.
+When the angel V is hovered-over, change its color to red.
 
 ##Closing Thoughts
 
@@ -131,7 +136,7 @@ Knowledge of the Web API allows us to affect and add dynamic behavior to HTML pa
 * `.appendChild`
 * `.textContent`
 * `.setAttribute`
-* `.style` (`.<someCSSProperty`)
+* `.style` (`.<someCSSProperty>`)
 * `.addEventListener`
 
 ####More worth knowing
