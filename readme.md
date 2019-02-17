@@ -6,7 +6,7 @@ Market: SF, Denver
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-#DOM Manipulation & Events
+# DOM Manipulation & Events
 
 ## Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
@@ -32,14 +32,14 @@ Using JavaScript to manipulate the DOM will enable you to write dynamic web appl
 - Create javascript objects and functions
 - Be resourceful Googlers
 
-##Select & Modify: Str8-up H4cked
+## Select & Modify: Str8-up H4cked
 *This workshop will be guided, but self-driven.*
 
 The consultant will introduce each mission, allow time for developers to work on it, and then give a suggested solution before moving on.
 
 *Note:* A [reference guide](#web-api-reference) to the aspects of the Web API is at the bottom of the workshop.
 
-####Mission A
+#### Mission A
 
 Time to be an [Egor Homakov](http://techli.com/2012/03/how-a-russian-developer-hijacked-github-to-help-the-rails-community/) and get some publicity. 
 
@@ -61,9 +61,9 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 * Now that we have a collection, how do we change the text off all of them at once?
 	* Tip: iterate through the collection and reset the `textContent` of each.
 
-##Create & Append: Angels Everywhere
+## Create & Append: Angels Everywhere
 
-####Mission B
+#### Mission B
 
 Let add the AngelList V to the email list subscribe box. After all, it's good to reward people who sign up for your email.
 
@@ -82,9 +82,9 @@ Let add the AngelList V to the email list subscribe box. After all, it's good to
 
 * Append it to the DOM
 
-##Styling with Javascript: Big Kitty
+## Styling with Javascript: Big Kitty
 
-####Mission C
+#### Mission C
 
 Our angel V is not big or bold enough! Let's increase its size and give it a fun color.
 
@@ -97,9 +97,9 @@ Our angel V is not big or bold enough! Let's increase its size and give it a fun
 `.style`
 
 
-##Set Event Listeners
+## Set Event Listeners
 
-####Mission D
+#### Mission D
 
 Register an event which fires when our angel V is clicked that creates an alert message saying "Fund Me!"
 
@@ -110,13 +110,13 @@ Register an event which fires when our angel V is clicked that creates an alert 
 `.addEventListener`
 
 
-##Bonus Mission
+## Bonus Mission
 
-####Mission E
+#### Mission E
 
 When the angel V is hovered-over, change its color to red.
 
-##Closing Thoughts
+## Closing Thoughts
 
 Knowledge of the Web API allows us to affect and add dynamic behavior to HTML pages.
 
@@ -139,7 +139,7 @@ Knowledge of the Web API allows us to affect and add dynamic behavior to HTML pa
 * `.style` (`.<someCSSProperty>`)
 * `.addEventListener`
 
-####More worth knowing
+#### More worth knowing
 
 **Element API**
 
