@@ -4,22 +4,20 @@ Editor: John Barela
 Market: SF, Denver
 -->
 
-![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
-
 # DOM Manipulation & Events
 
 ## Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-Using JavaScript to manipulate the DOM will enable you to write dynamic web applications that can update themselves & be affected by user input in any way you dream up!
+Using JavaScript to manipulate the DOM will enable you to write dynamic web applications that can update themselves and be affected by user input in any way you dream up!
 
 ## What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
-* Select & modify DOM elements
-* Create & append DOM elements
+* Select and modify DOM elements
+* Create and append DOM elements
 * Style CSS with Javascript
 * Set event listeners
 
@@ -32,7 +30,7 @@ Using JavaScript to manipulate the DOM will enable you to write dynamic web appl
 - Create javascript objects and functions
 - Be resourceful Googlers
 
-## Select & Modify: Str8-up H4cked
+## Select and Modify: Str8-up H4cked
 *This workshop will be guided, but self-driven.*
 
 The consultant will introduce each mission, allow time for developers to work on it, and then give a suggested solution before moving on.
@@ -43,7 +41,7 @@ The consultant will introduce each mission, allow time for developers to work on
 
 Time to be an [Egor Homakov](http://techli.com/2012/03/how-a-russian-developer-hijacked-github-to-help-the-rails-community/) and get some publicity. 
 
-Head to the Angel List's [job board](https://angel.co/developer/jobs) page to get started. Select each company name and change them all to `WDI Rulez: str8-up h4cked`.
+Head to the Angel List's [connections board](https://angel.co/people/connections) page to get started. Select each name and change them all to `WDI Rulez: str8-up h4cked`.
 
 ![str8-up hacked](./images/str8-up-h4cked.png)
 
@@ -65,17 +63,15 @@ Head to the Angel List's [job board](https://angel.co/developer/jobs) page to ge
 
 #### Mission B
 
-Let add the AngelList V to the email list subscribe box. After all, it's good to reward people who sign up for your email.
-
-![angels-everywhere](./images/more-angels.png)
+Let's add the AngelList V to the page title ("Find People").
 
 ---
 
 **Hint:**
 
-* Grab the email list box
+* Grab the page title
 
-* Create a span element in the console with the classes `.fontello-angellist`
+* Create a span element in the console with the class `.fontello-angellist`
 
 * Add an ID for good measure (it could help us select it again later)
 	* Tip: try `setAttribute`
