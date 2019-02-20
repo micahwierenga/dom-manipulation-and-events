@@ -82,9 +82,7 @@ Let's add the AngelList V to the page title ("Find People").
 
 #### Mission C
 
-Our angel V is not big or bold enough! Let's increase its size and give it a fun color.
-
-![green-angel](./images/green-angels.png)
+Our angel V is not big or bold enough! Let's increase its size and give it a fun color. Change its font size to 200px and its color to green.
 
 ---
 
